@@ -9,8 +9,12 @@ class CryptoDisplayButtons extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blue,
+      // color: Colors.blue,
       margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+      decoration: BoxDecoration(
+        color: Colors.blue,
+        borderRadius: BorderRadius.circular(10),
+      ),
       child: TextButton(
         onPressed: () {},
         child: Text(
